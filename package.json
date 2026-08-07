@@ -1,0 +1,47 @@
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "vite build",
+    "start": "node server.js",
+    "lint": "eslint . --ext .js,.jsx",
+    "clean": "rm -rf dist",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "axios": "^1.19.0",
+    "d3": "^7.9.0",
+    "diff": "^9.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "highlight.js": "^11.11.1",
+    "lucide-react": "^0.546.0",
+    "mongodb": "^7.5.0",
+    "mongoose": "^9.8.1",
+    "motion": "^12.23.24",
+    "pdfkit": "^0.19.1",
+    "react": "^19.0.1",
+    "react-diff-viewer-continued": "^4.4.0",
+    "react-dom": "^19.0.1",
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.9.2",
+    "vite": "^6.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "tailwindcss": "^4.1.14",
+    "vite": "^6.2.3",
+    "vitest": "^4.1.9"
+  }
+}

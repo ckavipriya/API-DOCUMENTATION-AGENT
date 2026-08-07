@@ -1,0 +1,8 @@
+{
+  "name": "Remix: AI API Documentation Agent",
+  "description": "An AI-powered documentation agent that parses backend codebases, generates OpenAPI specifications, and provides an advanced testing lab for real-time API debugging and validation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
